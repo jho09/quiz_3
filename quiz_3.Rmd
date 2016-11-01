@@ -1,0 +1,65 @@
+---
+title: "quiz_3"
+author: "Jordan Ho"
+date: '2016-11-01'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r,echo=FALSE,message=FALSE, warning=FALSE}
+# Code goes in blocks like this
+
+# load libraries
+library(tidyverse)
+library(apaTables)
+library(haven)
+library(cocor)
+
+```
+
+# Question 1
+
+The correlation between (A1,C1) and (E1,O1) was $\Delta r$ = -.0099, 95% CI[-.11,.09], N = 777. The CI suggests at most a weak positive or negative relationship between these variables.
+
+\pagebreak
+
+# Question 2
+
+The correlation between (A1,C1) and (A1,E1) was $\Delta r$ = -.08, 95% CI[-.18,.02], N = 777. The CI suggests at most a weak positive or negative relationship between these variables.
+
+\pagebreak
+
+# Question 3 
+
+The comparison between the (A1,E1) correlation for men and the (A1,E1) correlation for women was $\Delta r$ = .02, 95& CI[-.13,.17], N = 777. The CI suggests at most a weak positive or negative relationship between these variables.
+
+\pagebreak
+
+# Question 4
+
+The comparison for the correlations between rating-raises and rating-critical was $\Delta r$ = .43, 95% CI [.067,.787], N = 30. The CI is quite long and suggests there is likely a positive relationship between these variables.
+
+\pagebreak
+
+# Question 5
+
+The comparison for the correlations between rating-raises and complaint-critical was $\Delta r$ = .40, 95% CI [.015,.777], N = 30. The CI is quite long and suggests there is likely a positive relationship between these variables.
+
+\pagebreak
+
+# Question 6
+
+The comparison for the correlations between the original rating-raises and repeated rating-raises was $\Delta r$ = .56, 95% CI [.260,.757]. The CI suggests there is likely a positive relationship between these variables. 
+
+\pagebreak
+
+# Question 7
+
+The correlation between rating and raises obtained in the first study was r = .59, 95% CI [.29,.78], N = 30. However, this correlation came from a small sample size of N = 30. Since a sample size of 3000 is considerably larger than a sample size of 30, we should assume that the second correlation is much more informative than the first study, and that there is at most a weak positive relationship between these variables.
+
+
+
+
